@@ -13,6 +13,8 @@
 		A8FDD29B1B55D96F006F60DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FDD29A1B55D96F006F60DA /* Images.xcassets */; };
 		A8FDD29E1B55D96F006F60DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FDD29C1B55D96F006F60DA /* LaunchScreen.xib */; };
 		A8FDD2AA1B55D96F006F60DA /* pushingTableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FDD2A91B55D96F006F60DA /* pushingTableViewsTests.m */; };
+		A8FDD2C11B570F86006F60DA /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FDD2C01B570F86006F60DA /* DetailTableViewController.m */; };
+		A8FDD2C41B570F94006F60DA /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FDD2C31B570F94006F60DA /* RootTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 		A8FDD2A31B55D96F006F60DA /* pushingTableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushingTableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FDD2A81B55D96F006F60DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8FDD2A91B55D96F006F60DA /* pushingTableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pushingTableViewsTests.m; sourceTree = "<group>"; };
+		A8FDD2BF1B570F86006F60DA /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		A8FDD2C01B570F86006F60DA /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		A8FDD2C21B570F94006F60DA /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		A8FDD2C31B570F94006F60DA /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,11 @@
 		A8FDD28C1B55D96F006F60DA /* pushingTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				A8FDD2911B55D96F006F60DA /* AppDelegate.h */,
-				A8FDD2921B55D96F006F60DA /* AppDelegate.m */,
 				A8FDD2971B55D96F006F60DA /* Main.storyboard */,
+				A8FDD2C21B570F94006F60DA /* RootTableViewController.h */,
+				A8FDD2C31B570F94006F60DA /* RootTableViewController.m */,
+				A8FDD2BF1B570F86006F60DA /* DetailTableViewController.h */,
+				A8FDD2C01B570F86006F60DA /* DetailTableViewController.m */,
 				A8FDD29A1B55D96F006F60DA /* Images.xcassets */,
 				A8FDD29C1B55D96F006F60DA /* LaunchScreen.xib */,
 				A8FDD28D1B55D96F006F60DA /* Supporting Files */,
@@ -91,6 +99,8 @@
 		A8FDD28D1B55D96F006F60DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8FDD2911B55D96F006F60DA /* AppDelegate.h */,
+				A8FDD2921B55D96F006F60DA /* AppDelegate.m */,
 				A8FDD28E1B55D96F006F60DA /* Info.plist */,
 				A8FDD28F1B55D96F006F60DA /* main.m */,
 			);
@@ -214,8 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FDD2C11B570F86006F60DA /* DetailTableViewController.m in Sources */,
 				A8FDD2931B55D96F006F60DA /* AppDelegate.m in Sources */,
 				A8FDD2901B55D96F006F60DA /* main.m in Sources */,
+				A8FDD2C41B570F94006F60DA /* RootTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
